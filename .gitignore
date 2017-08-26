@@ -1,0 +1,7 @@
+/.idea/
+/dist/
+/node_modules/
+/typings/
+/tsconfig.json
+/content/css/
+/coverage/

@@ -1,0 +1,32 @@
+{
+  "name": "jmorenov.com",
+  "version": "0.0.1",
+  "description": "Web application for personal web page of jmorenov",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmorenov/jmorenov.com.git"
+  },
+  "keywords": [
+    "WebApp",
+    "React",
+    "jmorenov",
+    "WebPage"
+  ],
+  "author": "jmorenov <jmorenov28@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmorenov/jmorenov.com/issues"
+  },
+  "homepage": "http://jmorenov.com"
+}

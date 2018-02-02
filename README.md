@@ -1,2 +1,3 @@
 # jmorenov.com
-My personal web page, with my projects and some experiencies.
+My personal web page.
+Build using React JS.

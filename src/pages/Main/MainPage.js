@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TextTestComponent from '../../components/texttest/TextTestComponent'
 import logo from '../../logo.svg';
 import './MainPage.css';
 
@@ -11,7 +12,8 @@ class MainPage extends Component {
           <h1 className="MainPage-title">Welcome to React</h1>
         </header>
         <p className="MainPage-intro">
-          To get started Javi, edit <code>src/App.js</code> and save to reload.
+            To get started Javi, edit <code>src/App.js</code> and save to reload.
+            <TextTestComponent />
         </p>
       </div>
     );

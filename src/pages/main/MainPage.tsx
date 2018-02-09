@@ -13,7 +13,6 @@ class MainPage extends React.Component {
                     <h1 className="MainPage-title">Welcome to React</h1>
                 </header>
                 <div className="MainPage-intro">
-                    To get started Javi, edit <code>src/App.js</code> and save to reload.
                     <TextTestComponent />
                 </div>
             </div>

@@ -1,21 +1,30 @@
 import * as React from 'react';
-import TextTestComponent from '../../components/texttest/TextTestComponent';
 import './MainPage.css';
-
-const logo = require('./logo.svg');
 
 class MainPage extends React.Component {
     render() {
         return (
-            <div className="MainPage">
-                <header className="MainPage-header">
-                    <img src={logo} className="MainPage-logo" alt="logo" />
-                    <h1 className="MainPage-title">Welcome to React</h1>
-                </header>
-                <div className="MainPage-intro">
-                    <TextTestComponent />
+            <main>
+                <div className="intro">Hello, I'm Javier!</div>
+                <div className="tagline">Artificial Intelligence | Cloud | Machine learning</div>
+                <div className="icons-social">
+                    <a target="_blank" href="https://github.com/jmorenov">
+                        <i className="fab fa-github"/>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/jmorenov28">
+                        <i className="fab fa-twitter"/>
+                    </a>
+                    <a target="_blank" href="https://stackoverflow.com/users/3883741/jmorenov">
+                        <i className="fab fa-stack-overflow"/>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jmorenov">
+                        <i className="fab fa-linkedin"/>
+                    </a>
+                    <a target="_blank" href="https://github.com/jmorenov/ResumeCV/blob/master/JavierMoreno_EN.pdf">
+                        <i className="fa fa-briefcase"/>
+                    </a>
                 </div>
-            </div>
+            </main>
         );
     }
 }
